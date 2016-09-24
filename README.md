@@ -1,5 +1,5 @@
-SimpleAngualr2WithRouter
+##SimpleAngualr2WithRouter:
 
-npm install 
-npm start
-then:  localhost:8080
+####npm install 
+###npm start
+###localhost:8080
