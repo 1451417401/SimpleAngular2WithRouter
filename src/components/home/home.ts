@@ -3,6 +3,6 @@ import '../../../public/css/styles.css';
 @Component({
   selector: 'my-app',
   templateUrl: './home.html',
-  styleUrls: ['./home.css']
+  styleUrls: ['./home.scss']
 })
 export class HomeComponent { }

@@ -28,6 +28,16 @@ module.exports = {
         test: /\.(png|jpe?g|gif|svg|woff|woff2|ttf|eot|ico)$/,
         loader: 'file?name=assets/[name].[hash].[ext]'
       },
+      { 
+        test: /\.scss$/, 
+        exclude: helpers.root('src', 'components'),
+        loaders: ['style', 'css', 'autoprefixer', 'sass'] 
+      },
+      {
+        test: /\.scss$/,
+        include: helpers.root('src', 'components'),
+        loader: 'raw'
+      },
       {
         test: /\.css$/,
         exclude: helpers.root('src', 'components'),
